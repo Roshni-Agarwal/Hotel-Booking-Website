@@ -2,21 +2,23 @@
 <html>
 <head>
     <title>Detail</title>
+    <link rel="stylesheet" href="styles\common.css">
+    <link rel="stylesheet" href="styles\detail.css">
 </head>
 
 <body>
-    <div>
+    <div id="container">
         <header>
             <a href="E:\HOTEL_B00KING_WEBSITE_STARTER_CODE\index.html" target="_self">
-            <img src="E:\HOTEL_B00KING_WEBSITE_STARTER_CODE\assests\images\logo.png" alt="logo" height="150" width="200" />
+            <img src="E:\HOTEL_B00KING_WEBSITE_STARTER_CODE\assests\images\logo.png" alt="logo" class="logo" />
         </a>
             <a href="E:\HOTEL_B00KING_WEBSITE_STARTER_CODE\login.html" target="_self">Login</a>
         </header>
         <div>
-            <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"><br/>
+            <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" class="Image"><br/>
             <form action="E:\HOTEL_B00KING_WEBSITE_STARTER_CODE\payment.html" method="GET" target="_self" >
-                <label for="name">Adults:</label>
-                <input type="number" id="quantity" name="quantity" min="1" required autocomplete="off" value="1"><br/>
+                <label for="adult">Adults:</label>
+                <input type="number" id="adult" name="adult" min="1" required autocomplete="off" value="1"><br/>
 
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required autocomplete="off"><br/>
@@ -51,13 +53,13 @@
         <footer>
             <a href="E:\HOTEL_B00KING_WEBSITE_STARTER_CODE\contact.html" target="_self">Contact Us</a><br/>
             <a href="https://www.facebook.com" target="_blank">
-                <img src="assests/images/facebook.png" height="20px" width="22px"/>
+                <img class="SocialMediaImage" src="assests\images\facebook.png" alt="Facebook" />
             </a>
             <a href="https://www.instagram.com" target="_blank">
-                <img src="assests/images/instagram.png" height="20px" width="22px"/>
+                <img class="SocialMediaImage" src="assests/images/instagram.png" alt="Instagram"/>
             </a>
             <a href="https://twitter.com" target="_blank">
-                <img src="assests/images/twitter.png" height="20px" width="22px"/>
+                <img  class="SocialMediaImage" src="assests/images/twitter.png" alt="Twitter "/>
             </a><br/>
             <span>&#169;</span>
             2020 ROOM SEARCH PVT LTD

@@ -1,0 +1,14 @@
+body,html,#container{
+    height: 100%;
+    width: 100%;
+}
+
+.logo{
+    height:60px;
+    width:60px;
+}
+
+.SocialMediaImage{
+    height: 20px;
+    width: 22px;
+}
