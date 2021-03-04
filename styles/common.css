@@ -1,6 +1,6 @@
 body,html,#container{
     height: 100%;
-    width: 100%;
+    
 }
 
 .logo{
@@ -11,4 +11,13 @@ body,html,#container{
 .SocialMediaImage{
     height: 20px;
     width: 22px;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    background-color: #e0e0e0;
+}
+header,footer{
+    background-color: rosybrown;
 }
