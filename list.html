@@ -3,23 +3,28 @@
     <title>List</title>
     <link rel="stylesheet" href="styles\common.css">
     <link rel="stylesheet" href="E:\HOTEL_B00KING_WEBSITE_STARTER_CODE\styles\list.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-    <div id="container">
+    <div>
         <header>
             <a href="E:\HOTEL_B00KING_WEBSITE_STARTER_CODE\index.html" target="_self">
             <img src="E:\HOTEL_B00KING_WEBSITE_STARTER_CODE\assests\images\logo.png" alt="logo" class="logo" />
         </a>
-            <a href="E:\HOTEL_B00KING_WEBSITE_STARTER_CODE\login.html" target="_self">Login</a>
-        </header>
+            <a href="E:\HOTEL_B00KING_WEBSITE_STARTER_CODE\login.html" target="_self" class="loginStyle">Login</a>
+        <br/></header>
+
+        <div style="overflow:auto">
+            <div style="margin-top:7%;">
+            
+           <a href="#list-view" target="_self" class="viewsty" style="  margin-left: 38%;padding-right:2%;"><b>List View</b></a>
+            <a href="#map-view" target="_self" class="viewsty"><b>Map view</b></a>
+        </div>
         <div>
-            <ul>
-           <li> <a href="#list-view">List View</a><br/></li>
-            <li><a href="#map-view">Map view</a><br/></li>
-        </ul>
-        <a href="E:\HOTEL_B00KING_WEBSITE_STARTER_CODE\detail.html" >
-        <div id="list-view">
+        <a href="E:\HOTEL_B00KING_WEBSITE_STARTER_CODE\detail.html" target="_self" >
+        <div id="list-view" class="imagesView">
         <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" class="Image" /><br/>
         <h3>Radisson Blu Hotel</h3>
         <p>5 Star</p>
@@ -27,44 +32,46 @@
         </div>
         
     </a>
-    <div id="list-view">
 
+    <div class="imagesView">
         <img src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg" class="Image"/><br/>
         <h3>The Lalit New Delhi</h3>
         <p>4.5 Star</p>
         <p>New Delhi</p>
     </div>
-    <div id="list-view">
 
+    <div class="imagesView" style="margin-bottom:7%">
         <img src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg" class="Image"/><br/>
         <h3>Taj Palace</h3>
         <p>4.0 Star</p>
         <p>New Delhi</p>
     </div>
-    <div id="map-view">
+    </div>  
 
+    <div id="map-view">
+    </br>
         <img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png" /><br/>
-       <p> MAP VIEW</p>
+        MAP VIEW
     </div>
 
         
         </div>
+    </br>
         <footer>
-            <a href="E:\HOTEL_B00KING_WEBSITE_STARTER_CODE\contact.html" target="_self">Contact Us</a><br/>
-            <a href="https://www.facebook.com" target="_blank">
-                <img class="SocialMediaImage" src="assests\images\facebook.png" alt="Facebook" />
-            </a>
-            <a href="https://www.instagram.com" target="_blank">
+            <a href="E:\HOTEL_B00KING_WEBSITE_STARTER_CODE\contact.html" target="_self" class="contactStyle">Contact Us</a><br/>
+            <div class="iconsty">
+            <a href="https://www.facebook.com" target="_blank" style="text-decoration: none;">
+                <img class="SocialMediaImage" src="assests\images\facebook.png" alt="Facebook" /></a>
+            <a href="https://www.instagram.com" target="_blank" style="text-decoration: none;">
                 <img class="SocialMediaImage" src="assests/images/instagram.png" alt="Instagram"/>
             </a>
-            <a href="https://twitter.com" target="_blank">
+            <a href="https://twitter.com" target="_blank" style="text-decoration: none;">
                 <img  class="SocialMediaImage" src="assests/images/twitter.png" alt="Twitter "/>
-            </a><br/>
-            <span>&#169;</span>
-            2020 ROOM SEARCH PVT LTD
+            </a></div><br/>
+            <p class="copyrightSty"> <span>&#169;</span>
+            2020 ROOM SEARCH PVT LTD</p>
             
         </footer>
-    
     </div>
 </body>
 

@@ -4,6 +4,8 @@
     <title>Detail</title>
     <link rel="stylesheet" href="styles\common.css">
     <link rel="stylesheet" href="styles\detail.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -12,11 +14,11 @@
             <a href="E:\HOTEL_B00KING_WEBSITE_STARTER_CODE\index.html" target="_self">
             <img src="E:\HOTEL_B00KING_WEBSITE_STARTER_CODE\assests\images\logo.png" alt="logo" class="logo" />
         </a>
-            <a href="E:\HOTEL_B00KING_WEBSITE_STARTER_CODE\login.html" target="_self">Login</a>
-        </header>
+            <a href="E:\HOTEL_B00KING_WEBSITE_STARTER_CODE\login.html" target="_self" class="loginStyle">Login</a>
+        <br/></header>
         <div>
-            <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" class="Image"><br/>
-            <form action="E:\HOTEL_B00KING_WEBSITE_STARTER_CODE\payment.html" method="GET" target="_self" >
+            <img style="height: 500px; width: 500px; margin-top: 7%; margin-left: 4%; margin-right: 4%;" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" class="Image"><br/>
+            <form style="margin-left: 4%; margin-right: 4%; margin-bottom: 1%;" action="E:\HOTEL_B00KING_WEBSITE_STARTER_CODE\payment.html" method="GET" target="_self" >
                 <label for="adult">Adults:</label>
                 <input type="number" id="adult" name="adult" min="1" required autocomplete="off" value="1"><br/>
 
@@ -32,13 +34,18 @@
                 <label for="price">Total:</label>
                 <input type="text" name="price" id="price" autocomplete="off" readonly/><br/>
 
-                <input type="submit" value="Book Now" id="submit" />
+                <a href="payment.html" target="_self">
+                    <button id="bookNow">Book Now</button> </a>
             </form>
-            <div id="description">
+
+            <div style="margin-left: 4%; margin-right: 4%; margin-top: 1%; margin-bottom: 7%;">
             <h2>Radisson Blu Hotel</h2>
-           <p> RATING </p>
-           <p> 5 Star</p>
-           <p>AMENITIES</p>
+            <span>  
+                RATING </br></br>
+                5 Star </br></br>
+              </span> 
+    
+                AMENITIES
            <ul>
                <li>Room Service</li>
                <li>Restaurant</li>
@@ -46,26 +53,27 @@
                <li>Fitness center</li>
                <li>Pool</li>
            </ul>
-           <h5>DESCRIPTION</h5>
+           <div style="margin-bottom: 5%; position: absolute; padding-bottom: 6%;">
+           <h5 >DESCRIPTION</h5>
            <p>Lorem ipsum dolor sit amet consectetur adipising elit. Deleniti, illum totam magni volupatibus libero delectus nesciunt hie vel! Aperiam esse asperiores culpa, natus quam quis eum ex doloremque doloribus architecto!</p>
         </div>
         </div>
+        </div>
         <footer>
-            <a href="E:\HOTEL_B00KING_WEBSITE_STARTER_CODE\contact.html" target="_self">Contact Us</a><br/>
-            <a href="https://www.facebook.com" target="_blank">
-                <img class="SocialMediaImage" src="assests\images\facebook.png" alt="Facebook" />
-            </a>
-            <a href="https://www.instagram.com" target="_blank">
+            <a href="E:\HOTEL_B00KING_WEBSITE_STARTER_CODE\contact.html" target="_self" class="contactStyle">Contact Us</a><br/>
+            <div class="iconsty">
+            <a href="https://www.facebook.com" target="_blank" style="text-decoration: none;">
+                <img class="SocialMediaImage" src="assests\images\facebook.png" alt="Facebook" /></a>
+            <a href="https://www.instagram.com" target="_blank" style="text-decoration: none;">
                 <img class="SocialMediaImage" src="assests/images/instagram.png" alt="Instagram"/>
             </a>
-            <a href="https://twitter.com" target="_blank">
+            <a href="https://twitter.com" target="_blank" style="text-decoration: none;">
                 <img  class="SocialMediaImage" src="assests/images/twitter.png" alt="Twitter "/>
-            </a><br/>
-            <span>&#169;</span>
-            2020 ROOM SEARCH PVT LTD
+            </a></div><br/>
+            <p class="copyrightSty"> <span>&#169;</span>
+            2020 ROOM SEARCH PVT LTD</p>
             
         </footer>
-    
     </div>
 </body>
 

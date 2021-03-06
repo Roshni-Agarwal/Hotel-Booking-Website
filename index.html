@@ -4,45 +4,46 @@
     <title>Index</title>
     <link rel="stylesheet" href="styles\common.css">
     <link rel="stylesheet" href="styles\index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div id="container">
+    <div>
         <header>
         <img src="E:\HOTEL_B00KING_WEBSITE_STARTER_CODE\assests\images\logo.png" alt="logo" class="logo" />
-        <a href="E:\HOTEL_B00KING_WEBSITE_STARTER_CODE\login.html" target="_self">Login</a>
+        <a href="E:\HOTEL_B00KING_WEBSITE_STARTER_CODE\login.html" target="_self" class="loginStyle">Login</a>
         <br/>
     </header>
-        <div>
+        <div style="overflow-y: scroll; width: 100%;  overflow: hidden; position: absolute; height: 750px;">
             <div id="inputCity">
-                <input type="text"  placeholder="City" name="City" id="City" autocomplete="off"/></div>
+                <input id="searchBar" type="text"  placeholder="City" name="City" id="City" autocomplete="off"/></div>
             <br/>
-            <div style="margin-left: 15%; margin-right: 15%;">
-            <a href="E:\HOTEL_B00KING_WEBSITE_STARTER_CODE\list.html">
+            <div style="margin-left: 15%; margin-right: 15%; text-align: center;">
+            <a href="E:\HOTEL_B00KING_WEBSITE_STARTER_CODE\list.html" target="_self">
             <img class="indeximages" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg"/>
         </a>
 
             <img class="indeximages" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg"/>
             <img class="indeximages" src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg"/>
-            <img class="indeximages" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg"/><br/>
+            <img class="indeximages" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg"/>
+            <a href="#" target="_self" style="text-decoration: none;">
+                <p style="text-align: center;margin: auto;color: black;">View more>></p></a>
         </div>
-        <br/>
+    </div>
 
-            <a href="#">View more>></a>
-        </div>
         <footer>
-            <a href="E:\HOTEL_B00KING_WEBSITE_STARTER_CODE\contact.html" target="_self">Contact Us</a><br/>
-            <a href="https://www.facebook.com" target="_blank">
-                <img class="SocialMediaImage" src="assests\images\facebook.png" alt="Facebook" />
-            </a>
-            <a href="https://www.instagram.com" target="_blank">
+            <a href="E:\HOTEL_B00KING_WEBSITE_STARTER_CODE\contact.html" target="_self" class="contactStyle">Contact Us</a><br/>
+            <div class="iconsty">
+            <a href="https://www.facebook.com" target="_blank" style="text-decoration: none;">
+                <img class="SocialMediaImage" src="assests\images\facebook.png" alt="Facebook" /></a>
+            <a href="https://www.instagram.com" target="_blank" style="text-decoration: none;">
                 <img class="SocialMediaImage" src="assests/images/instagram.png" alt="Instagram"/>
             </a>
-            <a href="https://twitter.com" target="_blank">
+            <a href="https://twitter.com" target="_blank" style="text-decoration: none;">
                 <img  class="SocialMediaImage" src="assests/images/twitter.png" alt="Twitter "/>
-            </a><br/>
-            <span>&#169;</span>
-            2020 ROOM SEARCH PVT LTD
+            </a></div><br/>
+            <p class="copyrightSty"> <span>&#169;</span>
+            2020 ROOM SEARCH PVT LTD</p>
             
         </footer>
     
