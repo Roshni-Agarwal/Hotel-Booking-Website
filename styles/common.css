@@ -27,11 +27,12 @@ footer{
 
 .loginStyle{
   right: 0%;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-right: 2%;
   text-decoration: none;
   position: absolute;
   color: black;
+  padding: -0.625rem .75rem;
 }
 
 .logo{
@@ -56,11 +57,12 @@ footer{
 
 }
 .contactStyle{
-    bottom:32%;
-    margin-left: 2%;
+    bottom:20%;
+    margin-left: 4%;
     text-decoration: none;
     position: absolute;
     color: black;
+   
 }
 
 .copyrightSty{
