@@ -1,7 +1,4 @@
-.Image{
-    height:200px;
-    width:250px;
-}
+
 #list-view{
     scroll-behavior: smooth;
   }
@@ -12,8 +9,6 @@
    .imagesView{
     margin: 2%;
     background-color: lightgray; 
-    width: 43%;
-    float: left;
     display: flex;
  }  
  .imagesView:hover{

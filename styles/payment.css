@@ -6,26 +6,77 @@
 
 .imgDiv{
     background-color: rgb(132,136,139); 
-    margin: 10% auto 2% auto; 
-    flex-direction: row;
-    display: flex;
-    width: 50%;
+    /* flex-direction: row; */
+    margin: 2% !important;
 }
 
 .mainDiv{
-    margin-bottom: 100px; 
     flex-direction: column;
     display: flex;
+    margin-top: 18%; 
+    margin-left: 2%; 
+    margin-right: auto;
 }
 
-.descSty{
-    display: flex; 
+.descSty{ 
     font-family: cursive; 
     background-color:rosybrown; 
-    
     border:1px solid black; 
     border-radius: 5px; 
     margin-right: 2%; 
     margin-left: 2%;
+    margin-bottom: 19%; 
+    padding-bottom: 0%; 
+    margin-left: 4%; 
+    margin-right: 4%;
+}
+
+.img{
+    margin-left: 10%;
+    max-height: 300px;
+    max-width: 270px !important;
+}
+
+.img-content{
+    margin-left: 5% !important;
+}
+
+.details{
+    padding-left: 35% !important;
+}
+
+.desc-content{
+    padding-bottom: 2%;
+}
+
+@media only screen and (min-width: 800px){
+    .details{
+        padding: 5% !important;
+    }
+
+    .img{
+        margin-left: -2%;
+    }
+
+    .img-content{
+        margin-left: 0%;
+    }
+    
+    .mainDiv{
+        margin-top: 4%;
+    }
+
+    .imgDiv{
+        width: 50%;
+        margin-left: 25% !important;
+    }
+
+    .traif-content{
+        padding-top: 2%;
+    }
+
+    .desc-content{
+        padding-bottom: 0%;
+    }
     
 }
