@@ -1,3 +1,4 @@
+
 .indeximages{
     height: 150px;
     width: 150px;
@@ -26,21 +27,37 @@
     visibility: visible;
     
    }
+   .indeximages:hover + .text5Sty {
+    visibility: visible;
+   }
+
+   .indeximages:hover + .text6Sty {
+    visibility: visible;
+   }
+
+   .indeximages:hover + .text7Sty {
+    visibility: visible;
+   }
+
+   .indeximages:hover + .text8Sty {
+    visibility: visible;
+    
+   }
 
 
 
    .text1Sty{
     position: relative;
     bottom: 45%;
-    left:35%;
+    left:25%;
     color: #f1f1f1;
     visibility: hidden;
   }
 
   .text2Sty{
     position: relative;
-    bottom: 45%;
-    left:42%;
+    bottom: 48%;
+    left:28%;
     color: #f1f1f1; 
     visibility: hidden;
   }
@@ -48,7 +65,7 @@
   .text3Sty{
     position: relative;
     bottom: 45%;
-    left:27%;
+    left:18%;
     color: #f1f1f1;
     visibility: hidden;
   }
@@ -56,7 +73,38 @@
   .text4Sty{
     position: relative;
     bottom: 45%;
-    left:35%;
+    left:24%;
+    color: #f1f1f1;
+    visibility: hidden;
+  }
+  .text5Sty{
+    position: relative;
+    bottom: 45%;
+    left:23%;
+    color: #f1f1f1;
+    visibility: hidden;
+  }
+
+  .text6Sty{
+    position: relative;
+    bottom: 48%;
+    left:27%;
+    color: #f1f1f1; 
+    visibility: hidden;
+  }
+
+  .text7Sty{
+    position: relative;
+    bottom: 45%;
+    left:20%;
+    color: #f1f1f1;
+    visibility: hidden;
+  }
+
+  .text8Sty{
+    position: relative;
+    bottom: 45%;
+    left:15%;
     color: #f1f1f1;
     visibility: hidden;
   }
